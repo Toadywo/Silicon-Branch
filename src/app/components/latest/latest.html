@@ -1,0 +1,17 @@
+<div class="container">
+  <h1 class="page-title">Latest Stories</h1>
+  
+  <div class="article-grid"> @for (article of allArticles; track article.id) {
+      <div class="article-card" [routerLink]="['/article', article.id]">
+        <div class="card-image">
+          <img [src]="article.thumbnail" alt="{{article.title}}">
+        </div>
+        <div class="card-content">
+          <span class="date-tag">New</span>
+          <h3>{{ article.title }}</h3>
+          <p>{{ article.summary }}</p>
+        </div>
+      </div>
+    }
+  </div>
+</div>

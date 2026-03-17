@@ -1,0 +1,43 @@
+.main-header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #eaeaea;
+  padding: 0.75rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.logo-img {
+  height: 40px; /* Adjust this based on how big your logo file is */
+  width: auto;
+  display: block;
+}
+
+.nav-links {
+  display: flex;
+  gap: 100px; /* This creates the space between the links */
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: var(--slate-gray);
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.nav-links a:hover {
+  color: var(--primary-green); /* Turns green on hover */
+}
+
+.main-header {
+  border-bottom: 2px solid var(--primary-green); /* Adds a green line under header */
+}

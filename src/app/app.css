@@ -1,0 +1,14 @@
+.main-footer {
+  width: 100%;
+  padding: 40px 0;
+  margin-top: 50px;
+  border-top: 1px solid #eee;
+  text-align: center;
+  background-color: #fff;
+}
+
+.footer-container p {
+  color: #666;
+  font-size: 0.9rem;
+  font-family: sans-serif; /* Or matches your site font */
+}

@@ -1,1 +1,48 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  color: #1a1a1a; /* Global text color */
+  background-color: #ffffff;
+}
+:root {
+  --primary-green: #2ecc71;  /* Your 'Branch' color */
+  --tech-charcoal: #1e1e1e;   /* Modern headings */
+  --slate-gray: #64748b;      /* Subtitles */
+  --border-color: #eaeaea;
+}
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* This pushes the footer to the bottom */
+main {
+  flex: 1; 
+}
+/* 1. Make the whole window height available */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+/* 2. Turn the body into a flexbox column */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* 3. This is the magic: the main content grows to fill all empty space */
+main {
+  flex: 1;
+}
+
+/* 4. The footer will now be pushed to the very bottom */
+footer {
+  flex-shrink: 0; /* Ensures the footer doesn't get squished */
+}

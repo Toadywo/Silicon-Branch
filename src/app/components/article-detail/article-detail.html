@@ -1,0 +1,15 @@
+<div class="container">
+  @if (article) {
+    <img [src]="article.thumbnail" class="detail-hero">
+    <h1>{{ article.title }}</h1>
+    <div class="content">
+      {{ article.content }}
+    </div>
+    <button routerLink="/" class="back-btn">Back to Home</button>
+  } @else {
+    <div class="loading">
+      <p>Article not found or loading...</p>
+      <button routerLink="/">Go Back Home</button>
+    </div>
+  }
+</div>

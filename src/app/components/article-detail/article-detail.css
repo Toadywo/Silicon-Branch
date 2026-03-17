@@ -1,0 +1,34 @@
+.container {
+  max-width: 800px; /* Articles are easier to read when narrow */
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.detail-hero {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.content {
+  font-size: 1.1rem;
+  line-height: 1.8; /* Adds breathing room between lines of text */
+  color: #333;
+  white-space: pre-wrap; /* Keeps your paragraph breaks intact */
+}
+
+.back-btn {
+  margin-top: 40px;
+  padding: 10px 20px;
+  background: #eee;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
