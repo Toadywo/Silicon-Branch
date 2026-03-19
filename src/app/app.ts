@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { HeaderComponent } from './components/header/header'; // Check this path!
 import { RouterLink, RouterOutlet } from '@angular/router'; // 1. ADD RouterOutlet HERE
+import { title } from 'node:process';
 @Component({
   selector: 'app-root',
   standalone: true,
@@ -33,5 +34,12 @@ export const Article = [
     thumbnail: '3.png',
     summary: 'Apple released new, cheaper options of their more expensive flagships',
     content: 'In March 2026, Apple had released both the MacBook Neo & the iPhone 17e, the latter being a successor to their previous iPhone 16e. The iPhone 17e brought new improvements to it\'s predecessor such as MagSafe, and a new CenterStage camera. The iPhone 17e starts $599 for the 256 GB model, which can get bumped up to $799 for the 512 GB model. The MacBook Neo was a new addition to the MacBook lineup, utilizing the iPhone A18 Pro chip as a way to reduce costs. The MacBook Neo starts at $599 for 256 GB, and can be bumped up to $699 for 512 GB + Touch ID.'
+  },
+  {
+    id:4,
+    title: 'Nintendo Wii U, Xbox 360, and PS4 are now considered \'retro\'',
+    thumbnail: '4.png',
+    summary: 'GameStop classifies the Nintendo Wii U, Xbox 360, and Playstation 4 as \'retro\' consoles.',
+    content: 'GameStop has recently classified the Nintendo Wii U, Xbox 360, and Playstation 4 as retro consoles in their eyes. These consoles, releasing around 2012-2014, were considered a staple of many people\'s childhoods, being a constant source of nostalgia.'
   }
 ];
