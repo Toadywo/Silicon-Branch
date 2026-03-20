@@ -23,7 +23,8 @@
                 "glob": "**/*",
                 "input": "public"
               },
-              "src/sitemap.xml"
+              "src/sitemap.xml",
+              "src/robots.xml"
             ],
             "styles": [
               "src/styles.css"

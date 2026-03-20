@@ -1,0 +1,10 @@
+# Allow all search engines to crawl the site
+User-agent: *
+Allow: /
+
+# Block sensitive folders (optional)
+Disallow: /admin/
+Disallow: /config/
+
+# Tell them where the sitemap is
+Sitemap: https://www.yourdomain.com/sitemap.xml
