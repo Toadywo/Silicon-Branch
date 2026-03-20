@@ -32,7 +32,10 @@
             "server": "src/main.server.ts",
             "outputMode": "server",
             "security": {
-              "allowedHosts": []
+              "allowedHosts": [
+                "thesiliconbranch.com",
+                "www.thesiliconbranch.com"
+              ]
             },
             "ssr": {
               "entry": "src/server.ts"
