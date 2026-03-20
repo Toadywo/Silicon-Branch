@@ -20,7 +20,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-</urlset>
+
   <url>
     <loc>https://thesiliconbranch.com/article/2</loc>
     <lastmod>2024-05-20</lastmod>
@@ -39,3 +39,4 @@
     <changefreq>yearly</changefreq>
     <priority>0.8</priority>
   </url>
+  </urlset>
