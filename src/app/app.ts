@@ -49,11 +49,19 @@ export const Article = [
     summary: 'New trend of putting your Apple AirPods in upside-down emerges.',
     content: 'New trends on social media have been emerging of people demonstrating how they wear their Apple AirPods, with the stem facing upwards. They follow these practices with claims that the AirPod pieces direct the audio into your ear canal much better, as well as they fit in more precise. Creator Tyler Vitelli has posted a video of himself testing the claim, to which which he expressed affirmation of it\'s legitimacy. That being said, is it the way that Apple has entailed it to be worn? In almost every single piece of media that Apple has done for both the AirPods Pros 3 and the AirPods 4, they encourage the wearing of the Airpods in the way of which the stem faces down. Even on older AirPods, like AirPods 1st generation and AirPods 2nd generation, the stems are likely to big to fit sitting upwards in many people\'s ears. New concerns have come up on whether or not you are getting the absolutely best audio quality that the earbuds can provide, as the audio driver could possibly be reversed within the users\' ears. \n \n \n Image Source: https://www.youtube.com/shorts/ub7cvHR0QNg'
   },
-   {
+  {
     id:6,
     title: 'Pretzels might kill you one day. Heres how: ',
     thumbnail: '6.png',
     summary: 'I would worry if I liked pretzels so much that I, perchance, name myself after one.',
     content: 'Beware the twisted silhouette of the pretzel, for it is not merely a snack but a coiled serpent of culinary catastrophe waiting to strike! Each loop is a labyrinth of lethality, a parched desert of refined flour that seeks to mummify your throat and seize your very breath in a suffocating, salty embrace. To partake is to dance upon the precipice of a "sodium storm," where a single jagged crystal might trigger a systemic surge so profound your heart recoils in terror, while the dry, brittle shards threaten to splinter like glass against the fragile architecture of your existence. It is a golden-brown harbinger of the end, a dehydrated trap that turns a simple crunch into a thunderous knell of doom, proving that even the most innocent of twists can become a knot of pure, unadulterated peril.'
   },
+  {
+    id:7,
+    title: 'FIRST Lego League ceasing to exist after the 2026-2027 season.',
+    thumbnail: '7.jpg',
+    summary: 'FLL to be terminated in the near future.',
+    content: 'Lego Education has recently released a statement describing the fact that their contract with FIRST will end, and with it FIRST Lego League. This is truly the end of an era, but FIRST has expressed interest at replacing it with another program for young kids.'
+  }
+
 ];
