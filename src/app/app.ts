@@ -62,6 +62,13 @@ export const Article = [
     thumbnail: '7.jpg',
     summary: 'FLL to be terminated in the near future.',
     content: 'Lego Education has recently released a statement describing the fact that their contract with FIRST will end, and with it FIRST Lego League. This is truly the end of an era, but FIRST has expressed interest at replacing it with another program for young kids.'
+  },
+  {
+    id:8,
+    title: 'Apple celeberates 50 years!',
+    thumbnail: '8.jpg',
+    summary: 'Apple has been in business for 50 years!',
+    content: 'April 1, 2026 — Fifty years ago today, in a suburban garage in Los Altos, California, three men signed a partnership agreement that would fundamentally rewrite the history of modern civilization. Today, Apple Inc. celebrates its 50th anniversary, evolving from a scrappy startup with a wooden-cased computer into a $3.75 trillion global titan that has redefined how we communicate, create, and connect. To mark the milestone, Apple turned its Cupertino headquarters, Apple Park, into a private festival for its employees. The highlight of the evening was a surprise, career-spanning performance by Sir Paul McCartney on the iconic rainbow stage. The choice of McCartney was deeply symbolic. Steve Jobs was a lifelong devotee of The Beatles, and the legal resolution between Apple Inc. and the Beatles\' Apple Corps remains a legendary chapter in tech and music history. For 12,000 employees packed into the "spaceship," it was a full-circle moment as an 83-year-old McCartney closed the set with The End, a fitting tribute to five decades of innovation.'
   }
 
 ];
