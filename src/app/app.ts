@@ -69,6 +69,13 @@ export const Article = [
     thumbnail: '8.jpg',
     summary: 'Apple has been in business for 50 years!',
     content: 'April 1, 2026 — Fifty years ago today, in a suburban garage in Los Altos, California, three men signed a partnership agreement that would fundamentally rewrite the history of modern civilization. Today, Apple Inc. celebrates its 50th anniversary, evolving from a scrappy startup with a wooden-cased computer into a $3.75 trillion global titan that has redefined how we communicate, create, and connect. To mark the milestone, Apple turned its Cupertino headquarters, Apple Park, into a private festival for its employees. The highlight of the evening was a surprise, career-spanning performance by Sir Paul McCartney on the iconic rainbow stage. The choice of McCartney was deeply symbolic. Steve Jobs was a lifelong devotee of The Beatles, and the legal resolution between Apple Inc. and the Beatles\' Apple Corps remains a legendary chapter in tech and music history. For 12,000 employees packed into the "spaceship," it was a full-circle moment as an 83-year-old McCartney closed the set with The End, a fitting tribute to five decades of innovation.'
+  },
+  {
+    id:9,
+    title: 'Is it possible to use an iPhone 8 in 2026?',
+    thumbnail: '9.jpg',
+    summary: 'The Silicon Branch members test this out.',
+    content: 'Is using an iPhone 8 (2017) still worth it in 2026? We tried using it for a week and these are our thoughts: \nIt is usable. But it is not ideal to use. From our testing, it often lags frequently trying to do basic things such as scrolling through Instagram Reels, surfing the web, or trying to play games. Additionally, it is locked on iOS 16, which locks the functionality of other, iOS 17 and above apps, out. Our take is that if you have an iPhone 8 laying around and you do not care about these drawbacks, then for the most part it should be fine. However, if you are trying to get a usable phone, there are many cheaper options that are better in quality.'
   }
 
 ];
