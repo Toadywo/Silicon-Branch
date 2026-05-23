@@ -8,7 +8,7 @@
     <h2 class="section-title">Featured Stories</h2>
     
     <div class="article-grid">
-      @for (article of articles.slice(0, 3); track article.id) {
+      @for (article of articles.slice(4, 7); track article.id) {
         <div class="article-card" [routerLink]="['/article', article.id]">
           <div class="card-image">
             <img [src]="article.thumbnail" alt="{{article.title}}">

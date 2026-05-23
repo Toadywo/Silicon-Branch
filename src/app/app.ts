@@ -76,6 +76,13 @@ export const Article = [
     thumbnail: '9.jpg',
     summary: 'The Silicon Branch members test this out.',
     content: 'Is using an iPhone 8 (2017) still worth it in 2026? We tried using it for a week and these are our thoughts: \nIt is usable. But it is not ideal to use. From our testing, it often lags frequently trying to do basic things such as scrolling through Instagram Reels, surfing the web, or trying to play games. Additionally, it is locked on iOS 16, which locks the functionality of other, iOS 17 and above apps, out. Our take is that if you have an iPhone 8 laying around and you do not care about these drawbacks, then for the most part it should be fine. However, if you are trying to get a usable phone, there are many cheaper options that are better in quality.'
-  }
+  },
+   {
+    id:10,
+    title: 'Why did Google use an iPhone to showcase their new Gemini features',
+    thumbnail: '10.png',
+    summary: '',
+    content: 'During the Google I/O 2026 keynote, Google was showcasing their new Gemini Spark, a version of Gemini that tailors towards 24/7 goods and services, Josh Woodward, vice president of Google Labs and AI services, was seen testing this with a silver iPhone 17 Pro on stage. Despite Google hosting the popular Pixel series, the fact that the vice president of one of their most influential subsections used an iPhone seems preposterous. However, there may be more to the picture. \n \nDespite the fact that Google makes and sells their own phones, a large portion of Google software users are people who own Apple products, like iPhones and Macs. It is simply too big a market for Google to be able to comfortable lose. The choice for Woodward to whip out an iPhone mid-keynote was a concious choice by Google. Them using and showcasing their new Google software working on iPhones and Macs helps their impact in the long run. If they had simply chosen to advertise and utilize their own products, that being the current-gen Google Pixel 10 series, then they would obtain some advertising and brand loyalty, but would shun away their iPhone users. Them openly showing their use of iPhones helps entice other iPhone users to use these new Google services, as they can see that they work on their devices. It is a strategic move by Google to show that their software is compatible with the most popular devices on the market, rather than just their own. This helps them maintain and grow their user base across different platforms, which is crucial for the success of their services. \n \nSo in conclusion: No, Google\'s showcasing of iPhone wasn\'t a blunder on their end, it was a way to advertise to the many iPhone users of the world, a tactical plan to increase and support their longevity in the future.'
+  },
 
 ];
